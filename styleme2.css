@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    line-height: 2;
+    color: #343a40;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    background-color: #343a40;
+}
+table{
+    font-size: 17px;
+    margin-top: 150px;
+    border-collapse: collapse;
+    width: 800px;
+}
+th{
+    color: #343a40;
+}
+th, td{
+    padding: 10px 20px;
+    text-align: left;
+}
+thead th{
+    background-color: seagreen;
+    color: white;
+    font-weight: bolder;
+
+}
+tbody tr:nth-child(even) {
+    background-color: rosybrown;
+}
+tbody tr:nth-child(odd) {
+    background-color: darkgray;
+}

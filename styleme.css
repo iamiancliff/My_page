@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Schoolbook";
+}
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("img/pexels-veeterzy-303383.jpg");
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    cursor: pointer;
+}
+.container{
+    width: 500px;
+    height: 600px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 155px;
+}
+.container1{
+    text-align: center;
+    font-size: 50px;
+    color: royalblue;
+    font-weight: bolder;
+}
+.container2{
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    color: white;
+}
+.container3{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.container3 b{
+    font-size: 32px;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container4 a i{
+    font-size: 30px;
+    color: black;
+    margin-left: 15px;
+    background-color: lightslategrey;
+}
+a:active{
+    font-size: 35px;
+}
+.col-sm-4{
+    color: white;
+}
+.navbar-nav a{
+    color: indianred;
+    font-weight: bolder;
+    cursor: pointer;
+}
